@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Bakso Nusantara</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+
+            <h2 class="text-center text-blue">Isi Formulir Ini Untuk Mengkonfirmasi Pesanan Anda.</h2>
+
+            <form action="food-search.html" class="order">
+                <fieldset
+                    <legend>Silahkan Pilih</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/bakso mercon.jpg" alt="Bakso Mercon" class="img-responsive img-curve">
+                    </div>
+
+                    <div class="food-menu-desc">
+                        <h3>Bakso Mercon</h3>
+                        <p class="food-price">Rp 25.000</p>
+
+                        <div class="order-label">Qty</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+
+                    </div>
+
+                    <fieldset>
+
+                        <fieldset>
+                            <legend>Detail Pemesanan</legend>
+                            <div class="order-label">Full Name</div>
+                            <input type="text" name="full-name" placeholder="E.g. Kelompok 6"
+                                class="input-responsive">
+
+                            <div class="order-label">Nomor Telepon</div>
+                            <input type="tel" name="contact" placeholder="E.g. +6282252xxxxxx" class="input-responsive">
+
+                            <div class="order-label">Email</div>
+                            <input type="email" name="email" placeholder="E.g. Kelompok6****@gmail.com"
+                                class="input-responsive">
+
+                            <div class="order-label">Alamat</div>
+                            <textarea name="address" rows="10" placeholder="E.g. Jalan, Kecamatan, Kota, Provinsi"
+                                class="input-responsive"></textarea>
+
+                            <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                        </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Ends Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">Kelompok 6</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>
